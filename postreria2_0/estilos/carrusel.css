@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffe9ef;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  z-index: 1; /* Asegura que el texto esté por encima del video */
+}
+
+.text-overlay h1 {
+  font-size: 36px;
+  background-image: url('path-to-your-image.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #bd6e6e;
+  font-family: 'ADLaM Display', serif;
+  padding: 100px 0;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.text-overlay p {
+  font-size: 25px;
+}
+
